@@ -25,6 +25,7 @@ namespace Advanced01_G03
     }
     #endregion
 
+
     #region Q16 - What is contravariance? Explain the 'in' keyword.
     // in allows a consumer of a general type to be used as a consumer of a more specific type.
     public interface IConsumer<in T>
