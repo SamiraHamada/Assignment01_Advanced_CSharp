@@ -15,6 +15,7 @@ namespace Advanced01_G03
 
         #endregion
 
+
         #region Q5 - Write a generic method FindMax<T> that finds maximum value.
         // IComparable<T> allows values to be compared.
         public static T FindMax<T>(T first, T second) where T : IComparable<T>
