@@ -24,6 +24,7 @@ namespace Advanced01_G03
         }
         #endregion
 
+
         #region Q13 - What does the 'default' keyword do in generics?
         // default(T) returns the default value for T, such as 0 for int or null for string.
         public static T GetDefault<T>()
