@@ -99,6 +99,7 @@ namespace Advanced01_G03
             // Contravariance (in) is used when a generic type consumes/accepts T.
             #endregion
 
+
             #region Q18 - How do static members work in generic types?
             GenericCounter<int>.Count++;
             GenericCounter<int>.Count++;
